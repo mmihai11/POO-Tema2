@@ -20,3 +20,4 @@ void MainWindow::on_pushButton_clicked()
     QPixmap pix_2 (fileNames.at(1));
     ui->label_4->setPixmap(pix_2.scaled(ui->label_4->width(),ui->label_4->height(),Qt::KeepAspectRatio));
 }
+//comentariu
