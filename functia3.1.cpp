@@ -15,14 +15,4 @@ void getHashBit(CImg <unsigned char> image, vector <bool> &hashbit)
         avg.push_back(sum/h*1.0);
     }
 
-    for(int i = 0; i < avg.size(); i++)
-        averageValue += avg[i];
-    averageValue = averageValue/avg.size();
-
-
-    for(int i = 0; i < colors.size(); i++)
-        if(avg[i] > averageValue)
-            hashbit.push_back(true);
-        else
-            hashbit.push_back(false);
-}
+   
